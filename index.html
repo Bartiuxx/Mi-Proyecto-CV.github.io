@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="estilos_cv.css">
+  
+</head>
+<body>
+    <div id="Título Principal">
+        <h1>Currículum Vitae</h1>
+    </div>
+
+    <div>
+    <img src="img/Gustavo Kieffer.png" alt="Foto de Gustavo Kieffer" style="max-width: 400px">
+    </div>
+
+    <h2>Gustavo Kieffer</h2>
+
+
+   <button type="button" id="boton_home"> Home</button><br>
+
+   <button type="button" id="boton_dp"> Datos Personales</button><br>
+
+   <button type="button" id="boton_formacion"> Formación</button><br>
+
+   <button type="button" id="boton_explab"> Experiencia Laboral</button><br>
+
+   <button type="button" id="boton_contacto"> Contacto</button><br>
+
+
+   <p id="demo" style="display:none">Nombre: Gustavo Kieffer.
+    Edad: 41
+    Fecha de Nacimiento: 30 de noviembre de 1981.
+    Dirección: Urquiza 1437
+    Celular: 3576-414020
+    Localidad: Arroyito
+    Provincia: Córdoba
+   </p>
+   
+    <ul id="Datos_Personales" display="none">
+            <li><strong>Nombre:</strong> Gustavo Kieffer</li>
+            <li><strong>Edad:</strong> 41</li>
+            <li><strong>Fecha de Nacimiento:</strong> 30 de noviembre de 1981.</li>
+            <li><strong>E-mail:</strong> gak27@hotmail.com</li>            
+            <li><strong>Dirección:</strong> Urquiza 1437.</li>
+            <li><strong>Localidad:</strong> Arroyito</li>
+            <li><strong>Provincia:</strong> Córdoba</li>
+    </ul>
+
+
+
+    <div id="Formación"><h3>Formación:</h3></div>
+
+    <ul>
+        <li><strong>Primaria:</strong> Esc. Manuel Belgrano – Arroyito (1º grado - 3º grado)</li>
+        Esc. José Giménez Lagos – Arroyito (4º grado - 7º grado)
+        <li><strong>Secundaria:</strong> Esc. Dr. Dalmacio Vélez Sársfield (Comercial contable)</li>
+        <li><strong>Terciario:</strong> IES Siglo 21 – Téc. Sup. en Diseño Gráfico y Publicitario</li>
+        <li><strong>Cursos:</strong></li> -	Ploteo CAR-WRAP con Matías Gómez (Fan del Vinilo), 2019. <br>  -	Programación Front End en TICMAS, 2023.
+        
+    </ul>
+
+
+
+    <div id="Experiencia Laboral"><h3>Experiencia laboral:</h3></div>
+
+    <ul>
+        <li class="mi_lista"><strong>Año 2000:</strong> YPF Martinatto (enero – marzo)</li>
+        <li><strong>Año 2001:</strong> ARCOR Arroyito (enero – marzo)</li>
+        <li><strong>Año 2002:</strong> ARCOR Arroyito (enero – marzo)</li>
+        <li><strong>Año 2003:</strong> ARCOR Arroyito (marzo septiembre)</li>
+        <li><strong>Año 2004:</strong> Ciber Net: (marzo – diciembre)</li>
+        <li><strong>Año 2005 a la fecha:</strong> fundé <strong>Gráfica EGeO</strong> (empresa de cartelería y diseño), en la cual me sigo desempeñando.</li>
+    </ul>
+
+
+
+    <div id="Contacto"><h3>Contacto:</h3></div>
+    <div><h4>Para contactarse ingrese los siguientes datos:</h4></div>
+
+    <form action="" method="post">
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="Nombre y Apellido" placeholder="Ingrese su Nombre y Apellido"/>
+        <label>E-mail:</label>
+        <input type="text" name="E-mail" placeholder="Ingrese su e-mail"/>
+        <label>Teléfono:</label>
+        <input type="text" name="Teléfono/Celular" placeholder="Ingrese su teléfono o celular"/>
+        <input type="Submit" value="Enviar"/>
+    </form>
+    <br>
+
+   
+    <script src= index.js>
+
+    </script>
+
+    <p id="demo" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Formación:</button>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

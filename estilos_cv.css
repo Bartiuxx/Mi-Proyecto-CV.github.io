@@ -1,0 +1,73 @@
+
+body{
+  background-color: lightskyblue;
+}
+h1{
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 0.67em;
+  padding-bottom: 0.67em;
+  margin-left: 7em;
+  margin-right: 7em;
+  background-color: darkcyan;
+  font-family:'Montserrat', sans-serif;
+}
+
+h2{
+  color: brown;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+}
+
+h3{
+  color: brown;
+}
+
+button{
+  display: block;
+  padding-bottom: 0.1em;
+  background-color:rgb(197, 195, 195);
+  font-family: 'Franklin Gothic';
+  border: 1;
+  margin: auto;
+  }
+
+img {
+  display: block;
+  margin: auto;
+}
+
+ul{
+  size: 20px;
+}
+
+nav{
+  margin-left: 12em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+form{
+  font-family: 'Montserrat';
+}
+
+
+label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 1em;
+  padding-right: 0.50em;
+}
+
+#contacto{
+  font-size: 12px;
+}
+#circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.mi_lista{
+  font-size: large;
+}
